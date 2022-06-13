@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <fieldset class="filed">
+          <h1 class="title">Форма регистрации пользователя</h1>
+          <div class="container">
+            <div class="input">
+              <label for="">
+                <input class="input-info" type="text" />
+                <input class="input-info" type="password" />
+                <input class="input-info" type="number" />
+                <div class="subtitle">
+                  <p class="name">Ваше имя:</p>
+                  <p class="name">Пароль:</p>
+                  <p class="name">Возраст:</p>
+                  <p class="name">Пол:</p>
+                  <p class="name">Ваши увлечения:</p>
+                  <p class="name">Ваша страна:</p>
+                  <p class="name">Ваш город:</p>
+                  <p class="name">Кратко о себе:</p>
+                </div>
+                <div class="checked">
+                  <div class="sex-name">
+                    <input
+                      class="sex"
+                      type="radio"
+                      id="man"
+                      name="info"
+                      value="email"
+                    />
+                    <label for="sexChoice1">Мужской</label>
+                  </div>
+                  <div class="sex-name">
+                    <input
+                      class="sex"
+                      type="radio"
+                      id="woomen"
+                      name="info"
+                      value="phone"
+                    />
+                    <label for="sexChoice2">Женский</label>
+                  </div>
+                </div>
+              </label>
+              <div class="hobby">
+                <label class="hobby-name" for="vehicle1"> Музыка</label><br />
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                <label class="hobby-name" for="vehicle1"> Видео</label><br />
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+                <label class="hobby-name" for="vehicle1"> Рисование</label
+                ><br />
+                <input
+                  type="checkbox"
+                  id="vehicle2"
+                  name="vehicle2"
+                  value="Car"
+                />
+              </div>
+              <div class="country">
+                <select name="country" class="country-name">
+                  <option value="">Выберите вашу страну</option>
+                  <option value="Kyrgyzstan">Кыргызстан</option>
+                  <option value="Kazakstan">Казакстан</option>
+                  <option value="Russia">Россия</option>
+                  <option value="Uzbekistan">Узбекистан</option>
+                </select>
+              </div>
+              <div class="city">
+                <select name="country" class="city-name">
+                  <option value="">Выберите ваш город</option>
+                  <option value="Bishkek">Бишкек</option>
+                  <option value="Nur-Sultan">Нур-Султан</option>
+                  <option value="Moscow">Москва</option>
+                  <option value="Tashkent">Ташкент</option>
+                </select>
+              </div>
+              <textarea
+                class="text"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Краткая информация о ваших увлечениях"
+              ></textarea>
+              <div class="send">
+                <h3 class="send-title">
+                  Решите пример, запишите результат в поле ниже
+                </h3>
+                <label for="">
+                  <input class="send-input" type="text" />
+                </label>
+                <div class="button">
+                  <button class="button-send">Отменить ввод</button>
+                  <button class="button-send">Данные подтверждаю</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

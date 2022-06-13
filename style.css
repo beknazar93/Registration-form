@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  position: absolute;
+  left: 33%;
+  top: 90px;
+  width: 510px;
+  height: 614px;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid black;
+  background: url("https://lifehacker.ru/wp-content/uploads/2017/03/bluesky_1488891825.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.filed {
+  position: relative;
+  left: 4px;
+  top: 38px;
+  width: 600px;
+  height: 550px;
+  border: none;
+}
+.title {
+  position: absolute;
+  top: -40px;
+  left: 60px;
+  font-size: 25px;
+  color: #ffffff;
+}
+.container {
+  width: 500px;
+  height: 562px;
+  border: none;
+  border-radius: 20px;
+  background: url("https://stihi.ru/pics/2016/08/01/3853.jpg") no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+.input {
+  position: absolute;
+  left: 73px;
+  top: 1px;
+  width: 402px;
+  height: 130px;
+}
+.input-info {
+  position: relative;
+  width: 309px;
+  height: 30px;
+  left: 85px;
+  top: 17px;
+  margin-bottom: 13px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.subtitle {
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  top: 14px;
+  left: -40px;
+  font-size: 20px;
+}
+.name {
+  column-gap: normal;
+  margin-bottom: 20px;
+}
+.checked {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  left: 136px;
+  width: 250px;
+  top: 147px;
+  cursor: pointer;
+}
+.sex-name {
+  color: black;
+  transition: 5s;
+}
+.sex-name:hover {
+  color: rgb(138, 15, 15);
+  transition: 3s;
+}
+.hobby {
+  position: absolute;
+  width: 350px;
+  height: 20px;
+  top: 191px;
+  left: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 88px;
+}
+.hobby-name {
+  margin-left: 10px;
+}
+.country {
+  position: absolute;
+  width: 300px;
+  top: 300px;
+  left: 140px;
+}
+.country-name {
+  position: absolute;
+  width: 309px;
+  height: 30px;
+  left: -55px;
+  top: -81px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.city-name {
+  position: absolute;
+  width: 309px;
+  height: 30px;
+  left: 85px;
+  top: 258px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.text {
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  left: 90px;
+  top: 293px;
+  padding: 10px 10px 10px;
+  resize: none;
+  border-radius: 10px;
+}
+.send {
+  position: absolute;
+  width: 300px;
+  top: 415px;
+  left: -1px;
+}
+.send-title {
+  position: absolute;
+  width: 450px;
+  height: 2px;
+  top: -23px;
+  left: -36px;
+  color: black;
+  font-weight: 550;
+  font-size: 18px;
+}
+.send-input {
+  position: absolute;
+  width: 295px;
+  height: 40px;
+  top: 13px;
+  left: 91px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 0 auto;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+.button {
+  display: flex;
+  width: 290px;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-left: 93px;
+}
+.button-send {
+  width: 120px;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #e6e6e6;
+}
+.button-send:hover {
+  cursor: pointer;
+  background-color: #a00a0a;
+  transition: 2s;
+}
